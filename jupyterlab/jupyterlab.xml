@@ -14,8 +14,8 @@
   <WebUI>http://[IP]:[PORT:8888]</WebUI>
   <TemplateURL />
   <Icon>https://raw.githubusercontent.com/BGameiro2000/unraid-ca/master/jupyterlab/icon.png</Icon>
-  <ExtraParams>-c "conda install jupyter -y --quiet &amp;amp;&amp;amp; mkdir -p /opt/notebooks &amp;amp;&amp;amp; jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"</ExtraParams>
-  <PostArgs />
+  <ExtraParams></ExtraParams>
+  <PostArgs>/bin/bash  -c "conda install jupyter -y --quiet && mkdir -p /opt/notebooks && jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"</PostArgs>
   <CPUset />
   <DateInstalled>1668159116</DateInstalled>
   <DonateText />

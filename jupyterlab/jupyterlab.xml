@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>JupyterNotebooks</Name>
-  <Repository>github.com:nicentra/docker-templates</Repository>
+  <Repository>continuumio/miniconda3</Repository>
   <Registry>https://hub.docker.com/r/continuumio/miniconda3</Registry>
   <Network>bridge</Network>
   <MyIP />
